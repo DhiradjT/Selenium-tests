@@ -1,0 +1,511 @@
+{
+  "id": "d968edd2-22cb-4828-8526-ee886372a016",
+  "version": "2.0",
+  "name": "Order4SURE3",
+  "url": "https://testnsg.order4sure.nl/",
+  "tests": [{
+    "id": "cbb8e44d-b6a6-4a78-a6d0-3f471191ebcc",
+    "name": "MakingTwoOrders",
+    "commands": [{
+      "id": "8ac4cd35-65b4-4450-aa8c-2a9a1513fa88",
+      "comment": "",
+      "command": "open",
+      "target": "https://testnsg.order4sure.nl/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c91edb54-4660-478b-8a8a-2a8d56c6002c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1096",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69cc46de-b77f-483a-9499-54cea5c3741a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-padding:nth-child(1) .tile_img_img",
+      "targets": [
+        ["css=.tile-padding:nth-child(1) .tile_img_img", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/section/div/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "245fa93b-71bd-4e16-bb39-5da25b90613d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-padding:nth-child(1) .tile_img_img",
+      "targets": [
+        ["css=.tile-padding:nth-child(1) .tile_img_img", "css:finder"],
+        ["xpath=//div[@id='main-content']/div/section/div/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bc5c97c-4789-4c45-862c-bdc6ee20b6b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=bedrijfnaamnum",
+      "targets": [
+        ["id=bedrijfnaamnum", "id"],
+        ["name=bedrijfnaamnum", "name"],
+        ["css=#bedrijfnaamnum", "css:finder"],
+        ["xpath=//input[@id='bedrijfnaamnum']", "xpath:attributes"],
+        ["xpath=//div[@id='selectforGebruiker']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef370182-54a3-4020-ae90-d3a396e6bb5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=bedrijfnaamnum",
+      "targets": [
+        ["id=bedrijfnaamnum", "id"],
+        ["name=bedrijfnaamnum", "name"],
+        ["css=#bedrijfnaamnum", "css:finder"],
+        ["xpath=//input[@id='bedrijfnaamnum']", "xpath:attributes"],
+        ["xpath=//div[@id='selectforGebruiker']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1411d00b-0cfe-4778-97e2-89707f869d81",
+      "comment": "",
+      "command": "click",
+      "target": "id=leverggvns",
+      "targets": [
+        ["id=leverggvns", "id"],
+        ["name=leverggvns", "name"],
+        ["css=#leverggvns", "css:finder"],
+        ["xpath=//select[@id='leverggvns']", "xpath:attributes"],
+        ["xpath=//form[@id='orderspecificForm']/div/div/div[2]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c7d902b-db9a-4c44-a000-b2a01421f9fe",
+      "comment": "",
+      "command": "type",
+      "target": "id=bedrijfnaamnum",
+      "targets": [
+        ["id=bedrijfnaamnum", "id"],
+        ["name=bedrijfnaamnum", "name"],
+        ["css=#bedrijfnaamnum", "css:finder"],
+        ["xpath=//input[@id='bedrijfnaamnum']", "xpath:attributes"],
+        ["xpath=//div[@id='selectforGebruiker']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "3065860, Falkena Glas en Schilderwerken "
+    }, {
+      "id": "182e6c4f-c2e9-458c-ae54-a077059cda4a",
+      "comment": "",
+      "command": "select",
+      "target": "id=leverggvns",
+      "targets": [],
+      "value": "label=Standaard"
+    }, {
+      "id": "4aa2db54-e449-4e0b-87a0-e14c82ebbf16",
+      "comment": "",
+      "command": "click",
+      "target": "css=#leverggvns > option:nth-child(1)",
+      "targets": [
+        ["css=#leverggvns > option:nth-child(1)", "css:finder"],
+        ["xpath=//option[@value='standaard']", "xpath:attributes"],
+        ["xpath=//select[@id='leverggvns']/option", "xpath:idRelative"],
+        ["xpath=//select/option", "xpath:position"],
+        ["xpath=//option[contains(.,'Standaard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca69221-81d4-4612-8fea-ed9b8e959269",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jconfirm-buttons > .btn",
+      "targets": [
+        ["css=.jconfirm-buttons > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e82b5e15-a8b2-4c7c-baa0-695b5342513a",
+      "comment": "",
+      "command": "click",
+      "target": "id=groep[1]",
+      "targets": [
+        ["id=groep[1]", "id"],
+        ["name=regel[groep][1]", "name"],
+        ["css=#groep\\[1\\]", "css:finder"],
+        ["xpath=//select[@id='groep[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='shown-pull[1]']/div/div[5]/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c54e5d44-cf03-4ad4-8821-fde892f17173",
+      "comment": "",
+      "command": "select",
+      "target": "id=groep[1]",
+      "targets": [],
+      "value": "label=Enkel glas"
+    }, {
+      "id": "38636675-2043-4908-9961-4b67c66676ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#groep\\[1\\] > option:nth-child(2)",
+      "targets": [
+        ["css=#groep\\[1\\] > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='enkel']", "xpath:attributes"],
+        ["xpath=//select[@id='groep[1]']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select/option[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ad964d-d36b-4c58-b699-f1d4fa89481c",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-opbouw1-container",
+      "targets": [
+        ["id=select2-opbouw1-container", "id"],
+        ["css=#select2-opbouw1-container", "css:finder"],
+        ["xpath=//span[@id='select2-opbouw1-container']", "xpath:attributes"],
+        ["xpath=//div[@id='secondrow[1]']/div/div/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f7c461d-94e5-4db3-9a4b-e03f0a1c83b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(1) .col-md-12",
+      "targets": [
+        ["css=.col-md-6:nth-child(1) .col-md-12", "css:finder"],
+        ["xpath=//div[@id='adresoptie']/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fafc17c-3d82-4294-96c1-d24a0346e383",
+      "comment": "",
+      "command": "click",
+      "target": "id=aantal[1]",
+      "targets": [
+        ["id=aantal[1]", "id"],
+        ["name=regel[aantal][1]", "name"],
+        ["css=#aantal\\[1\\]", "css:finder"],
+        ["xpath=//input[@id='aantal[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='aantalRow[1]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d97943c4-146a-4d1a-9ef6-629f45fc8a89",
+      "comment": "",
+      "command": "type",
+      "target": "id=aantal[1]",
+      "targets": [
+        ["id=aantal[1]", "id"],
+        ["name=regel[aantal][1]", "name"],
+        ["css=#aantal\\[1\\]", "css:finder"],
+        ["xpath=//input[@id='aantal[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='aantalRow[1]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "a23fb355-14d9-4386-b975-d01cb7580a15",
+      "comment": "",
+      "command": "click",
+      "target": "id=breedte[1]",
+      "targets": [
+        ["id=breedte[1]", "id"],
+        ["name=regel[breedte][1]", "name"],
+        ["css=#breedte\\[1\\]", "css:finder"],
+        ["xpath=//input[@id='breedte[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='BreedteInput[1]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e51b08c-86f9-4891-9062-08216929e8f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=breedte[1]",
+      "targets": [
+        ["id=breedte[1]", "id"],
+        ["name=regel[breedte][1]", "name"],
+        ["css=#breedte\\[1\\]", "css:finder"],
+        ["xpath=//input[@id='breedte[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='BreedteInput[1]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "6ee44667-9958-4301-9d1c-348228e32231",
+      "comment": "",
+      "command": "click",
+      "target": "id=hoogte[1]",
+      "targets": [
+        ["id=hoogte[1]", "id"],
+        ["name=regel[hoogte][1]", "name"],
+        ["css=#hoogte\\[1\\]", "css:finder"],
+        ["xpath=//input[@id='hoogte[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='HoogteInput[1]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60dd6d21-4b74-4cba-92fa-d07b7094044d",
+      "comment": "",
+      "command": "type",
+      "target": "id=hoogte[1]",
+      "targets": [
+        ["id=hoogte[1]", "id"],
+        ["name=regel[hoogte][1]", "name"],
+        ["css=#hoogte\\[1\\]", "css:finder"],
+        ["xpath=//input[@id='hoogte[1]']", "xpath:attributes"],
+        ["xpath=//div[@id='HoogteInput[1]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "5c69e1b7-1c80-4b29-b2f7-5c526d7072be",
+      "comment": "",
+      "command": "click",
+      "target": "id=addNewRow",
+      "targets": [
+        ["id=addNewRow", "id"],
+        ["linkText=Nieuwe regel", "linkText"],
+        ["css=#addNewRow", "css:finder"],
+        ["xpath=//a[contains(text(),'Nieuwe regel')]", "xpath:link"],
+        ["xpath=//a[@id='addNewRow']", "xpath:attributes"],
+        ["xpath=//form[@id='orderspecificForm']/div[5]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nieuwe regel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "714d9001-665c-4f15-be16-576b7cb2d0ee",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1149.699951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e54f1d5e-436a-45c9-b9cd-68bc50856bf4",
+      "comment": "",
+      "command": "select",
+      "target": "id=groep[2]",
+      "targets": [],
+      "value": "label=Isolatieglas"
+    }, {
+      "id": "6066a2b7-bd0b-46da-90d9-a36874220786",
+      "comment": "",
+      "command": "click",
+      "target": "css=#groep\\[2\\] > option:nth-child(3)",
+      "targets": [
+        ["css=#groep\\[2\\] > option:nth-child(3)", "css:finder"],
+        ["xpath=(//option[@value='isolat'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='groep[2]']/option[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[5]/div/div[2]/select/option[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "950d670d-e642-4406-b115-d07b567248e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=subgroep[2]",
+      "targets": [
+        ["id=subgroep[2]", "id"],
+        ["name=regel[subgroep][2]", "name"],
+        ["css=#subgroep\\[2\\]", "css:finder"],
+        ["xpath=//select[@id='subgroep[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='shown-pull[2]']/div/div[6]/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[6]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78a2759d-e661-4003-a777-2f68d767a627",
+      "comment": "",
+      "command": "select",
+      "target": "id=subgroep[2]",
+      "targets": [],
+      "value": "label=Pilkington Insulight™ Therm met Pilkington Optitherm™ S3"
+    }, {
+      "id": "baf9f8e5-93a2-4a23-a443-46a842d7cad3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#subgroep\\[2\\] > option:nth-child(2)",
+      "targets": [
+        ["css=#subgroep\\[2\\] > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='S3']", "xpath:attributes"],
+        ["xpath=//select[@id='subgroep[2]']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/select/option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Pilkington Insulight™ Therm met Pilkington Optitherm™ S3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2406f58-f36d-4540-bfc0-88b6bc120114",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-opbouw2-container",
+      "targets": [
+        ["id=select2-opbouw2-container", "id"],
+        ["css=#select2-opbouw2-container", "css:finder"],
+        ["xpath=//span[@id='select2-opbouw2-container']", "xpath:attributes"],
+        ["xpath=//div[@id='secondrow[2]']/div/div/div[2]/div/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div/div/div[2]/div/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d39aa631-eee3-4924-823f-e5bc5af5173a",
+      "comment": "",
+      "command": "click",
+      "target": "id=spouwtype[2]",
+      "targets": [
+        ["id=spouwtype[2]", "id"],
+        ["name=regel[spouwtype][2]", "name"],
+        ["css=#spouwtype\\[2\\]", "css:finder"],
+        ["xpath=//select[@id='spouwtype[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='secondrow[2]']/div[3]/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div[3]/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e8954f9-7cc0-4c75-93f8-37cead3a9501",
+      "comment": "",
+      "command": "select",
+      "target": "id=spouwtype[2]",
+      "targets": [],
+      "value": "label=Blank Aluminium (standaard)"
+    }, {
+      "id": "3521c90e-4d93-4c78-9756-1199adca51a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#spouwtype\\[2\\] > option:nth-child(2)",
+      "targets": [
+        ["css=#spouwtype\\[2\\] > option:nth-child(2)", "css:finder"],
+        ["xpath=(//option[@value='blankalu'])[2]", "xpath:attributes"],
+        ["xpath=//select[@id='spouwtype[2]']/option[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]/div[3]/div/div[2]/select/option[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bacfff3-3dfa-4b2c-a3e4-a12d4222285d",
+      "comment": "",
+      "command": "click",
+      "target": "id=aantal[2]",
+      "targets": [
+        ["id=aantal[2]", "id"],
+        ["name=regel[aantal][2]", "name"],
+        ["css=#aantal\\[2\\]", "css:finder"],
+        ["xpath=//input[@id='aantal[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='aantalRow[2]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[6]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d455e33c-e7d1-4e08-94a3-2d745b1ba80e",
+      "comment": "",
+      "command": "type",
+      "target": "id=aantal[2]",
+      "targets": [
+        ["id=aantal[2]", "id"],
+        ["name=regel[aantal][2]", "name"],
+        ["css=#aantal\\[2\\]", "css:finder"],
+        ["xpath=//input[@id='aantal[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='aantalRow[2]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[6]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "20d5f561-b0c9-491c-8ad4-c2b1e0fbef88",
+      "comment": "",
+      "command": "click",
+      "target": "id=breedte[2]",
+      "targets": [
+        ["id=breedte[2]", "id"],
+        ["name=regel[breedte][2]", "name"],
+        ["css=#breedte\\[2\\]", "css:finder"],
+        ["xpath=//input[@id='breedte[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='BreedteInput[2]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[6]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e368f28b-0596-46c8-824c-1e4e94f51919",
+      "comment": "",
+      "command": "type",
+      "target": "id=breedte[2]",
+      "targets": [
+        ["id=breedte[2]", "id"],
+        ["name=regel[breedte][2]", "name"],
+        ["css=#breedte\\[2\\]", "css:finder"],
+        ["xpath=//input[@id='breedte[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='BreedteInput[2]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[6]/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "425e0a55-7bcf-490b-b27e-a9d959cab164",
+      "comment": "",
+      "command": "click",
+      "target": "id=hoogte[2]",
+      "targets": [
+        ["id=hoogte[2]", "id"],
+        ["name=regel[hoogte][2]", "name"],
+        ["css=#hoogte\\[2\\]", "css:finder"],
+        ["xpath=//input[@id='hoogte[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='HoogteInput[2]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[6]/div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3db58d3-c44d-48e4-8665-bd3b2a8ea8a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=hoogte[2]",
+      "targets": [
+        ["id=hoogte[2]", "id"],
+        ["name=regel[hoogte][2]", "name"],
+        ["css=#hoogte\\[2\\]", "css:finder"],
+        ["xpath=//input[@id='hoogte[2]']", "xpath:attributes"],
+        ["xpath=//div[@id='HoogteInput[2]']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[6]/div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1500"
+    }, {
+      "id": "6b1ed5c5-aabf-4369-a34d-13639b4db7d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitorderform",
+      "targets": [
+        ["id=submitorderform", "id"],
+        ["css=#submitorderform", "css:finder"],
+        ["xpath=//input[@id='submitorderform']", "xpath:attributes"],
+        ["xpath=//form[@id='orderspecificForm']/div[5]/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e34399df-a9df-4d73-aee9-89e5bdd9b1e1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9a58a8c3-f539-46b7-8f0c-ecf40b2b0c0f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cbb8e44d-b6a6-4a78-a6d0-3f471191ebcc"]
+  }],
+  "urls": ["https://testnsg.order4sure.nl/"],
+  "plugins": []
+}
